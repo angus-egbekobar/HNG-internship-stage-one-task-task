@@ -15,7 +15,7 @@ function updateClock() {
   const weekday = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
 
   date.innerText = ` ${weekday[currentDayOfTheWeek]}`;
-  utc.innerText = `${UTCHours}:${UTCMinutes}:${UTCSeconds} UTC`;
+  utc.innerText = `${UTCHours}:${UTCMinutes}:${UTCSeconds} `;
 }
 
 // Call the function once to set the initial values
